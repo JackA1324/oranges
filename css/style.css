@@ -1,0 +1,48 @@
+body{
+  /*This rule formats your entire page. You can add background colors, fonts, and more. Start by adding a background color and a font. The margin: auto; rule centers everything on the page. More on this later!*/
+    margin: auto; 
+    background-color: bisque; 
+    font-family: news 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: url('../img/fly-cursor.png'), auto;
+    background-image: url(..//img/Close-Up-Dragonfly.jpg) 
+
+}
+
+h1 {
+    /* This rule formats any element with a h1 tag. Start by changing the color and size of any h1 text.*/
+    font-size: 32pt; 
+    color: red; 
+    text-align: center;
+}
+h3{
+  text-align: center;
+  background-color: pink;
+}
+
+p {
+      /* This rule formats any element with a h1 tag. Start by changing the color and size of any h1 text.*/  
+    font-size: 30px;
+    text-align: center; 
+    color: white  ;
+    background-image: url(../img/fly-background1.jpg);
+    background-color: black;
+
+}
+h4{
+  text-align: center;
+  font-size: 20pt;
+  color: pink;
+}
+a{
+  display: block;
+  text-align: center; 
+  margin: 0 auto;
+  font-size: 60pt;
+  color: red;
+  cursor: url('../img/fly-cursor.png'), auto;
+  position: relative; 
+  transition: all 0.3s ease; 
+}
+a:active {
+  bottom: 300px; 
+}
